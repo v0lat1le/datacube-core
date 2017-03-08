@@ -1,4 +1,0 @@
- pypeg2
- pytest-cov # testing
- pytest-logging
- pytest-faulthandler

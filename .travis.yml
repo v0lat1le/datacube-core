@@ -10,9 +10,7 @@ language: python
 matrix:
   include:
     - python: "3.5"
-#      env: CONDA_ENV_FILE=.travis/environment_py35.yaml
-#    - python: "2.7"
-#      env: CONDA_ENV_FILE=.travis/environment_py27.yaml
+    - python: "2.7"
 
 cache:
   directories:

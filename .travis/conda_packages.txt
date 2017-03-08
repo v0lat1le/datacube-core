@@ -15,6 +15,7 @@ pathlib
 pep8 # testing
 psycopg2
 pylint # testing
+pytest-cov
 python-dateutil
 pyyaml
 rasterio
