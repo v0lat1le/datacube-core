@@ -1,0 +1,23 @@
+cachetools
+compliance-checker
+coveralls # coveralls integration
+dask
+fiona # movie generator app
+gdal
+hypothesis # testing
+jsonschema
+matplotlib # pixel drill app
+mock # testing
+netcdf4
+numexpr
+numpy
+pathlib
+pep8 # testing
+psycopg2
+pylint # testing
+python-dateutil
+pyyaml
+rasterio
+singledispatch
+sqlalchemy
+xarray
