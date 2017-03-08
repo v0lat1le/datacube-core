@@ -13,7 +13,7 @@ conda config --show-sources
 conda config --show
 conda info -a
 
-conda install --yes -q -c conda-forge --file conda_packages_py${TRAVIS_PYTHON_VERSION//.}.txt
-pip install -r pip_packages_py${TRAVIS_PYTHON_VERSION//.}.txt
+conda install --yes -q -c conda-forge --file .travis/conda_packages_py${TRAVIS_PYTHON_VERSION//.}.txt
+pip install -r .travis/pip_packages_py${TRAVIS_PYTHON_VERSION//.}.txt
 
 source deactivate
